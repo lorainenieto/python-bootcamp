@@ -4,7 +4,10 @@ student_scores = [98,75,100,86,100,3]
 average_score = sum(student_scores)/len(student_scores)
 print(average_score)
 
+print(sorted(student_scores, reverse= True))
 
+
+for score in sorted(student_scores):
 
 
 
